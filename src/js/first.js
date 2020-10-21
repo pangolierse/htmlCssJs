@@ -26,6 +26,7 @@ import animation from "./moveInOut";
   for(let i = 0; i < headNavItem.length; i++){
     let node = headNavItem[i]
     node.onclick = () => {
+      old = now
       contentMove(i)
     }
   }
